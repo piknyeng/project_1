@@ -1,2 +1,6 @@
-bambang maling mangga
-bapakkau mancing keributan
+FROM Alpine
+
+LABEL Maintainer="Piknyeng"
+WORKDIR /datague
+ADD branch_2/datague
+
